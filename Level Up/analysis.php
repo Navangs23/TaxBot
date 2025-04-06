@@ -334,6 +334,7 @@
 
         partA.textContent = a.trim();
         partB.textContent = b.trim();
+        localStorage.setItem('taxPlannerData', JSON.stringify({ totalIncome, totalDeductions, taxableIncome, totalTax, regime }));
     });
 
     document.getElementById('mobile-menu-btn').addEventListener('click', function() {
