@@ -229,6 +229,7 @@
             <a href="dashboard.php">Dashboard</a>
             <a href="taxy.php">Tax Planner</a>
             <a href="analysis.php" class="active">Analysis</a>
+            <a href="forecasting.php" class="active">Forecasting</a>
             <button onclick="logout()">Logout</button>
         </div>
         <button class="mobile-menu-btn" id="mobile-menu-btn">
@@ -239,6 +240,7 @@
         <a href="dashboard.php">Dashboard</a>
         <a href="taxy.php">Tax Planner</a>
         <a href="analysis.php">Analysis</a>
+        <a href="forecasting.php" class="active">Forecasting</a>
         <button onclick="logout()">Logout</button>
     </div>
 </nav>
